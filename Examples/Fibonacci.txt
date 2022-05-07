@@ -1,0 +1,9 @@
+f = Array[20];
+
+for (i = 0; i < f.len; i = i + 1;) {
+    if i < 2 {
+        f[i] = i;
+    } else {
+        f[i] = f[i - 1] + f[i - 2];
+    }
+}
